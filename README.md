@@ -25,3 +25,5 @@ Install dependencies using:
 
 ```bash
 pip install -r requirements.txt
+
+pip install tensorflow keras matplotlib scikit-learn numpy pandas
