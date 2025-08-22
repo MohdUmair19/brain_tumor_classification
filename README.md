@@ -25,5 +25,40 @@ Install dependencies using:
 
 ```bash
 pip install -r requirements.txt
-
+```
+```bash
 pip install tensorflow keras matplotlib scikit-learn numpy pandas
+```
+## 📁 Dataset Structure
+You need to provide your own dataset structured as follows:
+dataset/
+├── train/
+│   ├── class1/
+│   ├── class2/
+│   └── ...
+└── validation/
+    ├── class1/
+    ├── class2/
+    └── ...
+## 🚀 Usage
+Clone the repository:
+```bash
+git clone https://github.com/Mohdumair19/brain_tumor_classification.git
+cd your-repo-name
+```
+Open the notebook you want to run:
+```bash
+jupyter notebook densenet121_large_dataset.ipynb
+```
+or
+```bash
+jupyter notebook nasnet_large_dataset_large.ipynb
+```
+Follow the notebook cells to train & evaluate the model.
+
+## 📊 Results
+The notebooks generate and display:
+- ✅ Classification accuracy
+- 📉 Loss curves
+- 🔎 Confusion matrix
+- 📑 Classification report
